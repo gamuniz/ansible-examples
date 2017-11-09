@@ -1,3 +1,5 @@
 - src: https://github.com/bennojoy/nginx
   version: master
   name: nginx_role
+  
+  - src: r_rudi.cowsay
