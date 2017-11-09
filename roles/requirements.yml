@@ -2,4 +2,4 @@
   version: master
   name: nginx_role
   
-  - src: r_rudi.cowsay
+  
