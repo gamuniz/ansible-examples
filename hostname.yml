@@ -2,7 +2,7 @@
 - hosts: all
   #remote_user: ec2-user
   #connection: local
-  serial: 1
+  #serial: 1
   tasks:
     - command: hostname
     - debug: msg=hostname
