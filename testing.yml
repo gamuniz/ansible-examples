@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+  - name: testing include vars
+    include_vars:
+      file: "{{ ansible_os_family }}.yml"
+  - name: hello world
+    shell: "echo {{test_var}}"
