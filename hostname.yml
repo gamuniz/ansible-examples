@@ -4,6 +4,6 @@
   #connection: local
   #serial: 1
   tasks:
-    - command: hostname
+    - shell: hostname
     - debug: msg=hostname
     
