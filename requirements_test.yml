@@ -2,3 +2,12 @@
 - hosts: all
   roles:
     - requirements_test
+  tasks:
+    - name: delete my project
+       uri:
+       url: localhost/api/v2/projects/4/
+       method: DELETE
+       user: admin
+       password: password
+       validate_certs: false
+       force_basic_auth: true
