@@ -1,3 +1,0 @@
-- name: requirements_test
-  src: https://github.com/gamuniz/requirements_test.git
-  version: "master"
